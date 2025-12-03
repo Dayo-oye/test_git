@@ -1,0 +1,28 @@
+/* .container p{
+    color: blue;
+}
+.card p{
+    color: blue;
+    font-size: 24;
+}
+.testing p{
+    color: brown;
+    font-size: 35;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+/* CSS CHild Combinator */
+
+.container > p, ul li > p, p{
+    color: navy;
+}
+
+h2 +p,p,p{
+    color: forestgreen;
+    font-weight: bold;
+}
+.card div{
+    color: indianred;
+}
+
+h2 ~

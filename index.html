@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* p{color: blueviolet;} */
+    </style>
+</head>
+<body> 
+    <!-- CSS DEscendant combinator Examples -->
+     <!-- <div class="container">
+        <h2> Example 1: Direct and Nested paraGraphs</h2>
+        <div>
+            <p>This paragraphis Nested inside a div within the container</p>
+            <div>
+                <p>This paragraph is even more deeply nested.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <h2>Title</h2>
+        <p>Hello World</p>
+        <div class="testing">
+            <p>This is another testing of the style</p>
+            <span>Read more.....</span> -->
+            
+            
+        </div>
+    </div>
+    
+    <p style="color: red;">This paragraph is directly inside the container</p>
+
+
+
+    <!-- Inline Css (inside the tag)-->
+    <!-- <p style="color: rgba(12, 240, 248, 0.525);">Hello World</p>     -->
+    <!-- Internal Css (written inside of the HTML document Head above) -->
+     <!-- <p>How are you doing</p> -->
+
+
+
+     <!-- CSS Child Combinator -->
+      <!-- 
+     This CSS Child combinator is represented by the greater-than sign (>). It is used to select elements that are a direct child of a specified parent element -->
+
+     <div class="container">
+        <p>Hello 1</p>
+        <ul>
+            <li>
+                <p>another Hello</p>
+            </li>
+        </ul>
+        <p>Hello 2</p>
+     </div>
+
+
+     <!-- CSS next-sibling combinator -->
+      <!-- The CSS next-sibling combinator represented by the plus sign (+), is used to select an element that is immediately preceded by a specific element, and both share the same parent. -->
+
+      <div class="card">
+        <h2>Title</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <div>A div</div>
+        <p>Paragraph 3</p>
+    </div>
+
+    <!-- ![NOTE] --> the subsequent-sibling combinator selects all sibling elements that follow the specified element, not just the one immediately next to it.
+         
+    <!-- Subsequent-sibling combinator -->
+     <!-- 
+    the Subsequent-sibling combinator, represented by the tilde sign (~)is used to select an element that is preceded by a specific element, where both elements share the same parent.
+     -->
+    
+     <article>
+        <h1>Article Title</h1>
+        <p>Intro Paragraph</p>
+        <h2>Hello h2</h2>
+        <p>Paragraph </p>
+     </article>
+
+     <!-- ** Pseudo-Classes -->
+      <!-- Pseudo-classes in CSS are keyword added to a selector that specifies a special state of the selected element (s). they allow you to apply styles based on information that is not contained in the document tree, such as history (e.g, whether a link has been visited), content state (e.g, whether a checkbox is checked), or position within the parent (e.g, the first child element).-->
+       <!-- ! They are written with single colon (:) followed by the pseudo-class name, like this: 'selector:pseudo-class' -->
+
+       <!-- <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+       </ul> -->
+
+       <div class="color-demo solid-bg">
+        <h2>Solid Background color</h2>
+        <p>This div has a solid blue background</p>
+       </div>
+
+
+</body>
+</html>
