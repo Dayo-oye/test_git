@@ -12,7 +12,7 @@
 } */
 
 /* CSS CHild Combinator */
-
+/* 
 .container > p, ul li > p, p{
     color: navy;
 }
@@ -25,4 +25,51 @@ h2 +p,p,p{
     color: indianred;
 }
 
-h2 ~
+h2 ~ */
+
+/* CSS Background Color */
+.color-demo{
+    padding: 30px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+}
+/* .solid-bg{
+    background-color: #F8B55C;
+} */ 
+
+/* Linear Gradient IN CSS */
+/* !A linear gradient is a type of image defined in CSS that creates a smooth, continuous, transition between two or mote colors along a straight line.
+! NOTE it is a powerful, flexible and performant way to add colorful background elements without needing to use external image files (like JPEG or PNGs). */
+
+.gradient-bg{
+    /* background-image: linear-gradient(90deg, cyan, pink, magenta); */
+    /* background-color: indianred; */
+}
+ 
+/* .deewhy{
+    background: linear-gradient(360deg, cyan, pink, magenta)
+} */
+
+/* .simple-image{
+    background-image: url(test.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+} */
+
+/* body{
+    padding: 0;
+    margin: 0;
+    background-image: url(image/house.jpg);
+    background-repeat: no-repeat; */
+    /*! Backgroun cover is to make the image fill the entire screen, scale properly crop only if needed maintain aspect ratio 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* CSS border */
+/* !The CSS border property is a shorthand property used to set the width, style and color of an element's bo */
+
