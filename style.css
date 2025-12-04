@@ -42,10 +42,10 @@ h2 ~ */
 /* !A linear gradient is a type of image defined in CSS that creates a smooth, continuous, transition between two or mote colors along a straight line.
 ! NOTE it is a powerful, flexible and performant way to add colorful background elements without needing to use external image files (like JPEG or PNGs). */
 
-.gradient-bg{
-    /* background-image: linear-gradient(90deg, cyan, pink, magenta); */
-    /* background-color: indianred; */
-}
+/* .gradient-bg{
+    background-image: linear-gradient(90deg, cyan, pink, magenta); 
+    background-color: indianred;
+} */
  
 /* .deewhy{
     background: linear-gradient(360deg, cyan, pink, magenta)
