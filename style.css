@@ -72,11 +72,11 @@ h2 ~ */
 
 /* CSS border */
 /* !The CSS border property is a shorthand property used to set the width, style and color of an element's bo */
-
+/* 
 body{
-    font-family: 'Open sans', sans-serif;
+    font-family: 'Open sans', sans-serif; */
     /* ! Line-height, controls the vertical space between lines of text */
-    line-height: 1.6;
+    /* line-height: 1.6;
     background-color: #F8B55C;
     max-width: 800px;
     padding: 20px;
@@ -143,4 +143,51 @@ h1{
     letter-spacing: -0.5px;
     font-weight: bold;
     color: rgb(5, 27, 45);
+} */
+
+/* ! [EXPLANATION]
+    /* -> COntent = 200 X 100 */
+    /* -> Padding = 20px on all sides */
+    /* -> Border = 5px */
+    /* -> Margin = 10px */
+*/
+
+.box{
+    background-color: rgb(201, 201, 224);
+    padding: 20px;
+    width: 200px;
+    border: 5px solid rgb(119, 154, 119);
+    height: 100px;
+    margin: 30px;
+}
+
+.card{
+    width: 250px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 5px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 50px;
+    border: 2px solid #4D930A;
+
+
+    background: #e8aab2;
+}
+
+
+.smart-box{
+    width: 300px;
+    padding: 20px;
+    border: 5px solid lemonchiffon;
+    background: #3FC4C3;
+    box-sizing: border-box;
 }

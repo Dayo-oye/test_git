@@ -1,0 +1,28 @@
+
+
+
+/* 
+    !Every HTML element on a page is positioned based on CSS rules
+
+    There are five main positioning types, but you asked about the core four.
+    (1). static
+    (2). relative
+    (3). absolute
+    (4). fixed
+
+*/
+
+.box{
+    width: 200px;
+    height: 100px;
+    background: lightblue;
+}
+
+/* Relative positioning */
+/* The elements says in normal document flow, but you can shift it using::after
+    *top
+    *left
+    *right
+    *bottom
+
+*/
