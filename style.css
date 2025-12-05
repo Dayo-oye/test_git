@@ -32,7 +32,7 @@ h2 ~ */
     padding: 30px;
     margin: 50px auto;
     text-align: center;
-    color: white;
+    color: black;
 }
 /* .solid-bg{
     background-color: #F8B55C;
@@ -73,3 +73,74 @@ h2 ~ */
 /* CSS border */
 /* !The CSS border property is a shorthand property used to set the width, style and color of an element's bo */
 
+body{
+    font-family: 'Open sans', sans-serif;
+    /* ! Line-height, controls the vertical space between lines of text */
+    line-height: 1.6;
+    background-color: #F8B55C;
+    max-width: 800px;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #435978;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.example-container{
+    background: #770F15;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.font-family-example{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+.font-sizing{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.colorful-text{
+    color: #0D821C;
+    background-color: #52D6FE;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.beautiful-text{
+    color: #c3d8c6;
+    background-color: #3d575f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.decorated-text{
+    text-decoration: underline dotted #AB49E1;
+    text-transform:  capitalize;
+    font-weight: bold;
+    background-color: #FF9169;
+    width: 540px;
+}
+
+.spaced-text{
+    letter-spacing: 1px;
+    line-height: 2;
+    background-color: rgb(209, 230, 230);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.tight-text{
+    letter-spacing: -0.5px;
+    font-weight: bold;
+    color: rgb(5, 27, 45);
+}
