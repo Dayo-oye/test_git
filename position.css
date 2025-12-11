@@ -24,5 +24,80 @@
     *left
     *right
     *bottom
-
 */
+
+.relative-box{
+    width: 200px;;
+    height: 100px;
+    background: orange;
+    position: relative;
+    top: 20px;
+}
+
+/* Absolute Positioning */
+/* The element is removed from the normal flow and positioned relative to the nearest positioned ancestor. */
+.abs-box{
+    width: 150px;
+    height: 80px;
+    background: red;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    text-align: center;
+
+}
+
+.parent{
+    position: relative;
+    width: 500px;
+    height: 200px;
+    border: 7px solid forestgreen;
+}
+
+.child-top-left{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: aquamarine;
+    /* margin-top: 15px;
+    margin-left: 45px; */
+    top: 10px;
+    left: 10px;
+}
+
+.child-top-right{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: bisque;
+    right: 10px;
+    top: 10px;
+}
+
+.child-centre{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: rgb(220, 166, 162);
+    right: 45%;
+    top: 30%;
+}
+
+.child-bottom-left{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: rgb(165, 52, 183);
+    left: 10px;
+    bottom: 10px;
+}
+
+.child-bottom-right{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: blueviolet;
+    right: 10px;
+    bottom: 15px;
+}
